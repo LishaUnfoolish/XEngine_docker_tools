@@ -72,7 +72,7 @@ function main() {
   esac
 
   docker ps -a
-  printf "xengine_docker_install done!\n usage push_images.sh push to hub.docker."
+  printf "\nxengine_docker_install done!\n usage push_images.sh push to hub.docker.\n"
 }
 
 main "$@"
