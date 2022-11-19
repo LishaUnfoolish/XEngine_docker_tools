@@ -1,5 +1,10 @@
 #!/bin/bash
-
+# /***************************
+# @Author: Xhosa-LEE
+# @Contact: lixiaoxmm@163.com
+# @Time: 2022/11/20
+# @Desc: 用于发布镜像到hub.docker
+# ***************************/
 function main() {
   # login
   docker login
