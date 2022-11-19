@@ -1,4 +1,10 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
+# /***************************
+# @Author: Xhosa-LEE
+# @Contact: lixiaoxmm@163.com
+# @Time: 2022/11/20
+# @Desc: 用于docker镜像生成
+# ***************************/
 ORIGIN_DOCKER="lixiaoxmm/ubuntu22.10:original"
 IMG="dockerproxy.com/${ORIGIN_DOCKER}"
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P )"
