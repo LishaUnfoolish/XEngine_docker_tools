@@ -1,4 +1,10 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# /***************************
+# @Author: Xhosa-LEE
+# @Contact: lixiaoxmm@163.com
+# @Time: 2022/11/20
+# @Desc: 用于本地宿主机启动目标docker
+# ***************************/
 image_name="ubuntu"
 if [ -z "$2" ]; then
     image_name="ubuntu"
